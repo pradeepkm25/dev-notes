@@ -30,6 +30,7 @@ A centralized, master index of all reference documents, checklists, templates, a
 - [Permissions Catalog](03-ROLES-AND-PERMISSIONS/PERMISSIONS.md) — Granular permission definitions and backend/frontend code guards.
 - [Permission Verification Checklist](03-ROLES-AND-PERMISSIONS/PERMISSION-CHECKLIST.md) — Security validation before merging features.
 - [Role & Permission Flows](03-ROLES-AND-PERMISSIONS/ROLE-PERMISSION-FLOWS.md) — Token claim enrichment and runtime permission checks.
+- [Data Steward Permissions](03-ROLES-AND-PERMISSIONS/data-steward-permissions.md) — Mandatory `CREATE` and `EDIT_ALL` permission requirements for Data Stewards.
 
 ### 🌐 04 - APIs
 - [API Reference](04-APIS/API-REFERENCE.md) — Standard REST endpoints, request/response models.

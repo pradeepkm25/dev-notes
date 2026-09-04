@@ -24,7 +24,7 @@ Update the default role provisioning SQL seed and add a validation check in the 
 #tenant #permissions #data-steward #keycloak #security
 
 ### Status
-- [ ] Not reviewed
+- [x] Reviewed -> Moved to [`03-ROLES-AND-PERMISSIONS/data-steward-permissions.md`](file:///d:/Dhira-Work/dev-notes/03-ROLES-AND-PERMISSIONS/data-steward-permissions.md)
 
 ---
 
