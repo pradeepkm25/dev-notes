@@ -1,0 +1,30 @@
+# Secrets & Environment (Never commit!)
+.env
+.env.*
+*.key
+*.pem
+*.secret
+*.token
+credentials.json
+secrets.json
+secrets.yaml
+
+# IDE & Editors
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# OS Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Scratch / Temp
+scratch/
+tmp/
+*.tmp
+*.log
