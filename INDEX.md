@@ -60,6 +60,7 @@ A centralized, master index of all reference documents, checklists, templates, a
 - [Errors and Solutions](08-TROUBLESHOOTING/ERRORS-AND-SOLUTIONS.md) — Documented problem-solution logs (`ISSUE-001`, ...).
 - [Lessons Learned](08-TROUBLESHOOTING/LESSONS-LEARNED.md) — Engineering retrospectives and takeaways (`LESSON-001`, ...).
 - [Common Problems](08-TROUBLESHOOTING/COMMON-PROBLEMS.md) — Quick lookup for frequently encountered environment gotchas.
+- [DBeaver Timezone Issue](08-TROUBLESHOOTING/dbeaver-timezone-issue.md) — Resolving incorrect timestamp rendering in DBeaver (`Asia/Kolkata`).
 
 ### ✅ 09 - Checklists
 - [New Tenant Checklist](09-CHECKLISTS/NEW-TENANT-CHECKLIST.md) — Rollout and onboarding verification.

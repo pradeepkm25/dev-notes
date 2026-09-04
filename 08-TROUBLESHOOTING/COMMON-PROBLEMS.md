@@ -14,6 +14,7 @@ A rapid lookup cheat sheet for day-to-day development gotchas across environment
 | `403 Forbidden` on newly added API | User role missing newly mapped permission | Update `role_permissions` mapping table in DB / Keycloak scope |
 | `Flyway schema version mismatch` | Local checksum mismatch on modified migration | Run `flyway repair` locally or restore original SQL migration file |
 | `Docker container cannot connect to Postgres` | Using `localhost` instead of `host.docker.internal` | Change DB host to `host.docker.internal` in container `.env` |
+| `DBeaver incorrect timestamp / timezone` | UI timezone mismatch in client preferences | `Window` → `Preferences` → `User Interface` → `Timezone` → `Asia/Kolkata` |
 
 ---
 
