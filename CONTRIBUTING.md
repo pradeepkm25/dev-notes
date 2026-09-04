@@ -28,11 +28,13 @@ Guidelines for keeping this personal knowledge base clean, maintainable, searcha
 ## 🏷️ Tagging Standards
 
 Use standardized lowercase tags:
-- `#tenant` / `#tenant-provisioning`
+- `#tenant` / `#tenant-provisioning` / `#tenant-admin`
 - `#permissions` / `#roles`
 - `#api` / `#curl`
 - `#database` / `#sql` / `#postgresql`
 - `#keycloak` / `#auth` / `#jwt`
+- `#governance` / `#bi` / `#adw` / `#adp` / `#amd`
+- `#performance-testing` / `#load-testing` / `#k6` / `#benchmarks`
 - `#enhancement` / `#reusable`
 - `#automation`
 - `#troubleshooting` / `#bug` / `#solution`

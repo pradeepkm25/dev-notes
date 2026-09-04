@@ -64,6 +64,8 @@ What type is it?
    ├── Permission → 03-ROLES-AND-PERMISSIONS
    ├── Tenant → 02-TENANTS
    ├── Keycloak → 06-KEYCLOAK
+   ├── Service (Governance/BI/ADW/ADP/AMD/Tenant Admin/Provisioning) → 11-SERVICES
+   ├── Performance / Load Testing → 12-PERFORMANCE-TESTING
    ├── Enhancement → 07-ENHANCEMENTS
    ├── Error/Solution → 08-TROUBLESHOOTING
    └── Important Rule → 01-IMPORTANT-REMINDERS
@@ -86,6 +88,8 @@ What type is it?
 | [`08-TROUBLESHOOTING`](file:///d:/Dhira-Work/dev-notes/08-TROUBLESHOOTING/) | Error-solution logs, lessons learned & common problems |
 | [`09-CHECKLISTS`](file:///d:/Dhira-Work/dev-notes/09-CHECKLISTS/) | Tenant rollout, feature completion, API & DB safety checklists |
 | [`10-ARCHIVE`](file:///d:/Dhira-Work/dev-notes/10-ARCHIVE/) | Obsolete, legacy, or superseded documentation |
+| [`11-SERVICES`](file:///d:/Dhira-Work/dev-notes/11-SERVICES/) | Governance, BI, ADW, ADP, AMD, Tenant-Admin & Tenant-Provisioning |
+| [`12-PERFORMANCE-TESTING`](file:///d:/Dhira-Work/dev-notes/12-PERFORMANCE-TESTING/) | Load testing scenarios, k6 scripts, SLA targets & benchmarks |
 | [`templates`](file:///d:/Dhira-Work/dev-notes/templates/) | Ready-to-copy markdown templates for all doc types |
 
 ---

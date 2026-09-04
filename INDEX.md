@@ -73,6 +73,20 @@ A centralized, master index of all reference documents, checklists, templates, a
 ### 📦 10 - Archive
 - [Archive Directory](10-ARCHIVE/README.md) — Repository of deprecated notes and obsolete patterns.
 
+### 🏢 11 - Microservices & Modules
+- [Services Directory Overview](11-SERVICES/README.md) — Platform microservices matrix and integration points.
+- [Governance Service](11-SERVICES/GOVERNANCE.md) — Policy management, bot token issuance, compliance audit.
+- [BI Analytics Service](11-SERVICES/BI.md) — Embedded dashboards, reporting, and Keycloak BI client.
+- [ADW (Data Warehouse)](11-SERVICES/ADW.md) — Warehouse schemas, analytical ETL, and partition keys.
+- [ADP (Data Platform)](11-SERVICES/ADP.md) — Backend core, ingestion pipelines, and async worker orchestration.
+- [AMD (Master Data)](11-SERVICES/AMD.md) — Master catalog, entity taxonomy curation, and data steward ops.
+- [Tenant Admin Service](11-SERVICES/TENANT-ADMIN.md) — Tenant settings, feature flag controls, and user administration.
+- [Tenant Provisioning Service](11-SERVICES/TENANT-PROVISIONING.md) — Automated realm, client, and schema bootstrapping.
+
+### ⚡ 12 - Performance Testing
+- [Performance Testing Guide](12-PERFORMANCE-TESTING/PERFORMANCE-TESTING-GUIDE.md) — Load testing methodology and k6 execution scripts.
+- [Benchmarks & SLA Thresholds](12-PERFORMANCE-TESTING/BENCHMARKS-AND-METRICS.md) — Response time SLAs, throughput targets, and connection pool metrics.
+
 ### 📝 Templates
 - [Quick Note Template](templates/quick-note-template.md)
 - [Enhancement Proposal Template](templates/enhancement-template.md)
