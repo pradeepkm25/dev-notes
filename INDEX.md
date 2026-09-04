@@ -49,6 +49,7 @@ A centralized, master index of all reference documents, checklists, templates, a
 - [User Management](06-KEYCLOAK/USER-MANAGEMENT.md) — User onboarding, attribute mapping, and password reset flows.
 - [Role Mapping](06-KEYCLOAK/ROLE-MAPPING.md) — Realm roles vs client roles and scope evaluators.
 - [Common Issues](06-KEYCLOAK/COMMON-ISSUES.md) — Resolving `redirect_uri` mismatches, missing claims, CORS, and audience errors.
+- [System Client `tenant_name` Claim](06-KEYCLOAK/system-client-tenant-name-claim.md) — Dynamic `tenant_name` Hardcoded Claim mapper configuration for `system-client` (`akashic-system`).
 
 ### 💡 07 - Enhancements
 - [Reusable Enhancements](07-ENHANCEMENTS/REUSABLE-ENHANCEMENTS.md) — Architectural patterns (`ENH-001`, `ENH-002`, ...).
