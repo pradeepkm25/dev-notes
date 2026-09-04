@@ -75,13 +75,13 @@ A centralized, master index of all reference documents, checklists, templates, a
 
 ### 🏢 11 - Microservices & Modules
 - [Services Directory Overview](11-SERVICES/README.md) — Platform microservices matrix and integration points.
-- [Governance Service](11-SERVICES/GOVERNANCE.md) — Policy management, bot token issuance, compliance audit.
-- [BI Analytics Service](11-SERVICES/BI.md) — Embedded dashboards, reporting, and Keycloak BI client.
-- [ADW (Data Warehouse)](11-SERVICES/ADW.md) — Warehouse schemas, analytical ETL, and partition keys.
-- [ADP (Data Platform)](11-SERVICES/ADP.md) — Backend core, ingestion pipelines, and async worker orchestration.
-- [AMD (Master Data)](11-SERVICES/AMD.md) — Master catalog, entity taxonomy curation, and data steward ops.
-- [Tenant Admin Service](11-SERVICES/TENANT-ADMIN.md) — Tenant settings, feature flag controls, and user administration.
-- [Tenant Provisioning Service](11-SERVICES/TENANT-PROVISIONING.md) — Automated realm, client, and schema bootstrapping.
+- [Governance Service](11-SERVICES/GOVERNANCE/README.md) — Policy management, bot tokens, and [Data Steward `CREATE`/`EDIT_ALL` permissions](11-SERVICES/GOVERNANCE/data-steward-create-edit-all-permissions.md).
+- [BI Analytics Service](11-SERVICES/BI/README.md) — Embedded dashboards, reporting, and Keycloak BI client.
+- [ADW (Data Warehouse)](11-SERVICES/ADW/README.md) — Warehouse schemas, analytical ETL, and partition keys.
+- [ADP (Data Platform)](11-SERVICES/ADP/README.md) — Backend core, ingestion pipelines, and async worker orchestration.
+- [AMD (Master Data)](11-SERVICES/AMD/README.md) — Master catalog, entity taxonomy curation, and data steward ops.
+- [Tenant Admin Service](11-SERVICES/TENANT-ADMIN/README.md) — Tenant settings, feature flag controls, and user administration.
+- [Tenant Provisioning Service](11-SERVICES/TENANT-PROVISIONING/README.md) — Automated realm, client, and schema bootstrapping.
 
 ### ⚡ 12 - Performance Testing
 - [Performance Testing Guide](12-PERFORMANCE-TESTING/PERFORMANCE-TESTING-GUIDE.md) — Load testing methodology and k6 execution scripts.

@@ -1,17 +1,17 @@
 # 11 - Microservices & Application Modules
 
-Centralized notes, architecture overviews, inter-service communication patterns, and configurations across the platform microservices.
+Dedicated modular directories for platform microservices, technical domain workflows, service-specific permission patterns, and configuration guides.
 
 ---
 
-## 📚 Service Modules
+## 📁 Service Directories
 
-| Module / Service | Key Responsibility | Primary Tech / Dependencies | Quick Note Link |
+| Service Folder | Key Responsibility | Primary Tech / Dependencies | Link |
 | :--- | :--- | :--- | :--- |
-| **Governance** | Data governance, policy enforcement, bot tokens, audit | NestJS, PostgreSQL, Keycloak | [`GOVERNANCE.md`](file:///d:/Dhira-Work/dev-notes/11-SERVICES/GOVERNANCE.md) |
-| **BI (Business Intelligence)** | Analytics, reporting dashboards, cube queries | Superset / Metabase, Cube, Keycloak | [`BI.md`](file:///d:/Dhira-Work/dev-notes/11-SERVICES/BI.md) |
-| **ADW (Data Warehouse)** | Warehouse schema, ETL pipelines, analytics queries | PostgreSQL / ClickHouse / BigQuery | [`ADW.md`](file:///d:/Dhira-Work/dev-notes/11-SERVICES/ADW.md) |
-| **ADP (Data Platform)** | Ingestion pipelines, dataset orchestration, workers | NestJS, Kafka/RabbitMQ, S3 | [`ADP.md`](file:///d:/Dhira-Work/dev-notes/11-SERVICES/ADP.md) |
-| **AMD (Master Data)** | Master data catalog, entity schemas, taxonomies | NestJS, TypeORM/Prisma, PostgreSQL | [`AMD.md`](file:///d:/Dhira-Work/dev-notes/11-SERVICES/AMD.md) |
-| **Tenant Admin Service** | Tenant metadata, feature flag controls, tenant user admin | NestJS, Keycloak Admin API, PostgreSQL | [`TENANT-ADMIN.md`](file:///d:/Dhira-Work/dev-notes/11-SERVICES/TENANT-ADMIN.md) |
-| **Tenant Provisioning** | Automated realm/client creation, schema init, seed data | NestJS, Keycloak Admin Client, PostgreSQL | [`TENANT-PROVISIONING.md`](file:///d:/Dhira-Work/dev-notes/11-SERVICES/TENANT-PROVISIONING.md) |
+| **`GOVERNANCE/`** | Data governance, policy enforcement, Data Steward `CREATE`/`EDIT_ALL` permissions, bot tokens | NestJS, PostgreSQL, Keycloak | [`GOVERNANCE/`](file:///d:/Dhira-Work/dev-notes/11-SERVICES/GOVERNANCE/) |
+| **`BI/`** | Embedded analytics, reporting dashboards, cube query isolation | Superset / Metabase, Keycloak | [`BI/`](file:///d:/Dhira-Work/dev-notes/11-SERVICES/BI/) |
+| **`ADW/`** | Data Warehouse schemas, analytical ETL, multi-tenant partitioning | PostgreSQL / ClickHouse | [`ADW/`](file:///d:/Dhira-Work/dev-notes/11-SERVICES/ADW/) |
+| **`ADP/`** | Data Platform backend core, ingestion workers, tenant context filters | NestJS, Redis/Queues, S3 | [`ADP/`](file:///d:/Dhira-Work/dev-notes/11-SERVICES/ADP/) |
+| **`AMD/`** | Master data catalog, entity taxonomies, shared reference curation | NestJS, PostgreSQL | [`AMD/`](file:///d:/Dhira-Work/dev-notes/11-SERVICES/AMD/) |
+| **`TENANT-ADMIN/`** | Tenant settings, dynamic feature flags, tenant user management | NestJS, Keycloak Admin API | [`TENANT-ADMIN/`](file:///d:/Dhira-Work/dev-notes/11-SERVICES/TENANT-ADMIN/) |
+| **`TENANT-PROVISIONING/`** | Realm bootstrapping, service client creation, protocol mappers | NestJS, Keycloak Admin Client | [`TENANT-PROVISIONING/`](file:///d:/Dhira-Work/dev-notes/11-SERVICES/TENANT-PROVISIONING/) |
