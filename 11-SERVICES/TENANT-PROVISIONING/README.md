@@ -24,6 +24,7 @@
 ---
 
 ## ⚡ Common Operations & Gotchas
+- **Service Account Token Sanitization**: Realm creation automatically purges `Client Host` and `Client IP Address` mappers from the `service_account` client scope to keep M2M tokens clean and secure (see [`remove-client-host-address-token-mappers.md`](file:///d:/Dhira-Work/dev-notes/06-KEYCLOAK/remove-client-host-address-token-mappers.md)).
 - **Idempotency**: All client and realm creation helper methods check `kcAdminClient.clients.find(...)` first to allow safe re-runs on failed provisioning attempts.
 - **Runtime Refresh**: Step 14 invokes `tenantRefreshService.refreshTenantRuntime(tenantName)` to notify live microservices of newly provisioned tenants.
 
