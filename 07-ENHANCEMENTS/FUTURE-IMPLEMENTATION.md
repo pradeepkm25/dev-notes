@@ -13,6 +13,7 @@ Master tracker of actionable enhancements, automation ideas, and reusable featur
 | `ENH-003` | Self-Service Custom Domain SSL Provisioning | Gateway / Routing | Enterprise Tenants | High | Needs Discussion | Evaluate Caddy vs AWS ACM automated DNS challenge |
 | `ENH-004` | Audit Log Automated Export to S3 | Security / Audit | All Tenants | Medium | Idea | Design nightly S3 export lambda/cron worker |
 | `ENH-005` | HikariCP Connection Pool Warmup | Database Layer | High-Traffic Tenants | Low | Idea | Benchmark pod startup latency improvements |
+| `ENH-006` | Keycloak Realm Brute Force Detection | Security / Provisioning | All Tenants | Medium | Planned | Apply `REALM_BRUTE_FORCE_CONFIG` in `PlatformRealmService` |
 
 ---
 

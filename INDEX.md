@@ -51,6 +51,7 @@ A centralized, master index of all reference documents, checklists, templates, a
 - [Common Issues](06-KEYCLOAK/COMMON-ISSUES.md) — Resolving `redirect_uri` mismatches, missing claims, CORS, and audience errors.
 - [System Client `tenant_name` Claim](06-KEYCLOAK/system-client-tenant-name-claim.md) — Dynamic `tenant_name` Hardcoded Claim mapper configuration for `system-client` (`akashic-system`).
 - [Remove Client Host/Address Claims](06-KEYCLOAK/remove-client-host-address-token-mappers.md) — Removing `clientHost` and `clientAddress` protocol mappers from tokens.
+- [Brute Force Detection Config](06-KEYCLOAK/brute-force-detection-configuration.md) — Realm brute force detection parameters and automated lockout blueprint.
 
 ### 💡 07 - Enhancements
 - [Reusable Enhancements](07-ENHANCEMENTS/REUSABLE-ENHANCEMENTS.md) — Architectural patterns (`ENH-001`, `ENH-002`, ...).
