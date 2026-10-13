@@ -15,6 +15,9 @@ Complete quality and onboarding checklist before handing over a newly provisione
   - [ ] Configure a Hardcoded Claim mapper (`oidc-hardcoded-claim-mapper`) if required.
   - [ ] Set `tenant_name` claim value to the current tenant name.
   - [ ] Generate a new token using `client_credentials` and verify the claim exists in JWT.
+- [ ] **System Client Access Token Lifespan Verified** (Keycloak 26):
+  - [ ] Confirm `akashic-system` has `access.token.lifespan` set to 24 hours (`86400` seconds).
+  - [ ] Request token via `client_credentials` and verify `expires_in: 86400` (see [`system-client-access-token-lifespan.md`](file:///d:/Dhira-Work/dev-notes/06-KEYCLOAK/system-client-access-token-lifespan.md)).
 - [ ] **Required Users Tested**: Provision a test user for both `TENANT_ADMIN` and `MEMBER`; confirm login and email flows work.
 - [ ] **APIs Verified**: Run smoke tests against core tenant endpoints (CRUD entities, query catalog).
 - [ ] **Important Tenant-Specific Configuration Documented**: Record any bespoke domain, SSO provider, or rate limit overrides in [`02-TENANTS/TENANT-SPECIFIC-NOTES.md`](file:///d:/Dhira-Work/dev-notes/02-TENANTS/TENANT-SPECIFIC-NOTES.md).

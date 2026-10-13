@@ -52,6 +52,7 @@ A centralized, master index of all reference documents, checklists, templates, a
 - [System Client `tenant_name` Claim](06-KEYCLOAK/system-client-tenant-name-claim.md) — Dynamic `tenant_name` Hardcoded Claim mapper configuration for `system-client` (`akashic-system`).
 - [Remove Client Host/Address Claims](06-KEYCLOAK/remove-client-host-address-token-mappers.md) — Removing `clientHost` and `clientAddress` protocol mappers from tokens.
 - [Brute Force Detection Config](06-KEYCLOAK/brute-force-detection-configuration.md) — Realm brute force detection parameters and automated lockout blueprint.
+- [System Client 24-Hour Token Lifespan](06-KEYCLOAK/system-client-access-token-lifespan.md) — Configuring 24-hour access token validity (`86400`s) for `akashic-system` in Keycloak 26.
 
 ### 💡 07 - Enhancements
 - [Reusable Enhancements](07-ENHANCEMENTS/REUSABLE-ENHANCEMENTS.md) — Architectural patterns (`ENH-001`, `ENH-002`, ...).

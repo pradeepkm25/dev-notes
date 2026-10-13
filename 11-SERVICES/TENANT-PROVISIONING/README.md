@@ -17,13 +17,14 @@
 ## 🔑 Key Service Clients & Protocol Mappers
 - **Public Client**: `akashic-{tenantName}` (User attribute mapper: `tenant_name`).
 - **Admin Service Client**: `akashic-{tenantName}-admin-service` (Service account + `realm-management` roles).
-- **System Client**: `akashic-system` (Service account; requires Hardcoded Claim `tenant_name`, see [`system-client-tenant-name-claim.md`](file:///d:/Dhira-Work/dev-notes/06-KEYCLOAK/system-client-tenant-name-claim.md)).
+- **System Client**: `akashic-system` (Service account; requires Hardcoded Claim `tenant_name` [note](file:///d:/Dhira-Work/dev-notes/06-KEYCLOAK/system-client-tenant-name-claim.md) and 24-hour token lifespan `86400`s [note](file:///d:/Dhira-Work/dev-notes/06-KEYCLOAK/system-client-access-token-lifespan.md)).
 - **BI Client**: `akashic-bi` (Confidential client).
 - **Governance Client**: `{tenantName}-governance` (Confidential client).
 
 ---
 
 ## ⚡ Common Operations & Gotchas
+- **System Client Token Lifespan (24 Hours)**: In Keycloak 26, `akashic-system` requires `access.token.lifespan = 86400` for uninterrupted backend jobs (see [`system-client-access-token-lifespan.md`](file:///d:/Dhira-Work/dev-notes/06-KEYCLOAK/system-client-access-token-lifespan.md)).
 - **Service Account Token Sanitization**: Realm creation automatically purges `Client Host` and `Client IP Address` mappers from the `service_account` client scope to keep M2M tokens clean and secure (see [`remove-client-host-address-token-mappers.md`](file:///d:/Dhira-Work/dev-notes/06-KEYCLOAK/remove-client-host-address-token-mappers.md)).
 - **Brute Force Detection**: Automatically enforces temporary lockout protection on tenant realm creation (`ENH-006`, see [`brute-force-detection-configuration.md`](file:///d:/Dhira-Work/dev-notes/06-KEYCLOAK/brute-force-detection-configuration.md)).
 - **Idempotency**: All client and realm creation helper methods check `kcAdminClient.clients.find(...)` first to allow safe re-runs on failed provisioning attempts.

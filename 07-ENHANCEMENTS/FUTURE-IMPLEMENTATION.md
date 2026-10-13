@@ -14,6 +14,7 @@ Master tracker of actionable enhancements, automation ideas, and reusable featur
 | `ENH-004` | Audit Log Automated Export to S3 | Security / Audit | All Tenants | Medium | Idea | Design nightly S3 export lambda/cron worker |
 | `ENH-005` | HikariCP Connection Pool Warmup | Database Layer | High-Traffic Tenants | Low | Idea | Benchmark pod startup latency improvements |
 | `ENH-006` | Keycloak Realm Brute Force Detection | Security / Provisioning | All Tenants | Medium | Implemented | Automated in tenant provisioning `PlatformRealmService` |
+| `ENH-007` | Keycloak System Client 24h Token Lifespan | Security / Provisioning | All Tenants | Medium | Planned | Add `'access.token.lifespan': '86400'` in `PlatformClientService` |
 
 ---
 
